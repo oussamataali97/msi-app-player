@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
 <>
     <div className="links  z-50">
-    <ul className={show ? 'flex text-xl font-[700] p-5 bg-white absolute top-20  overflow-hidden w-full flex-col items-start space-y-5 h-screen ease-in-out duration-300 border-t-2' : 'w-full h-screen bg-white  absolute -top-[90rem] ease-out duration-300 ' }>
+    <ul className={show ? 'flex text-xl font-[700] p-5 bg-white absolute top-14 md:top-20  overflow-hidden w-full flex-col items-start space-y-5 h-screen ease-in-out duration-300 border-t-2' : 'w-full h-screen bg-white  absolute -top-[90rem] ease-out duration-300 ' }>
         <a href="#"><li>Products</li></a>
         <a href="#"><li>Odm Solutions</li></a>
         <a href="#"><li>What's New</li></a>
