@@ -17,40 +17,40 @@ import picture4 from '../../public/bg-pd4.png'
 function Card() {
   return (
     <div className='grid grid-cols-4  text-white'>
-        <div className='relative saturate-100 hover:saturate-200 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
+        <div className='relative saturate-10 hover:saturate-150 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
         <img src={picture} alt="" className='	'/>
-        <div className="details absolute bottom-0 right-0 text-center">
-            <img src={laptops} alt="" className='' />
-        <p className='text-xl font-semibold pb-3'>Laptop</p>
+        <div className="details absolute bottom-0 right-3 flex items-center justofy-center flex-col  text-center">
+            <img src={laptops} alt="" className='w-14 md:w-full' />
+        <p className='text-sm md:text-xl md:font-semibold pb-3'>Laptop</p>
 
         </div>
 
         </div>
-        <div className='relative saturate-100 hover:saturate-200 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
+        <div className='relative saturate-10 hover:saturate-150 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
         <img src={picture2} alt="" className='	'/>
-        <div className="details absolute bottom-0 right-0 text-center">
-            <img src={laptops2} alt="" className='' />
-        <p className='text-xl font-semibold pb-3'>Graphic Cards</p>
+        <div className="details absolute bottom-0 right-3 flex items-center justofy-center flex-col  text-center">
+            <img src={laptops2} alt="" className='w-14 md:w-full' />
+        <p className='text-sm md:text-xl md:font-semibold pb-3'>Graphic Cards</p>
 
         </div>
 
         </div>
 
-        <div className='relative saturate-100 hover:saturate-200 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
+        <div className='relative saturate-10 hover:saturate-150 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
         <img src={picture3} alt="" className='	'/>
-        <div className="details absolute bottom-0 right-0 text-center">
-            <img src={laptops3} alt="" className='' />
-        <p className='text-xl font-semibold pb-3'>Motherboards</p>
+        <div className="details absolute bottom-0 right-3 flex items-center justofy-center flex-col  text-center">
+            <img src={laptops3} alt="" className='w-14 md:w-full' />
+        <p className='text-sm md:text-xl md:font-semibold pb-3'>Motherboards</p>
 
         </div>
 
         </div>
 
-        <div className='relative saturate-100 hover:saturate-200 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
+        <div className='relative saturate-10 hover:saturate-150 cursor-pointer ease-in duration-300 border-t-yellow-500 hover:border-t-4'>
         <img src={picture4} alt="" className='	'/>
-        <div className="details absolute bottom-0 right-0 text-center">
-            <img src={laptops4} alt="" className='' />
-        <p className='text-xl font-semibold pb-3'>Monitors</p>
+        <div className="details absolute bottom-0 right-3 flex items-center justofy-center flex-col  text-center">
+            <img src={laptops4} alt="" className='w-14 md:w-full' />
+        <p className=' text-sm md:text-xl md:font-semibold pb-3'>Monitors</p>
 
         </div>
 

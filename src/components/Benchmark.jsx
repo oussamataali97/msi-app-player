@@ -21,7 +21,7 @@ function Benchmark() {
 
        <div className="right max-w-lg space-y-5 md:ml-16">
            <p className='text-3xl font-[400]'>CONSOLE MODE</p>
-           <p className='text-xl font-[300] '> Play Mobile Games as Console with Controller
+           <p className='text-xl font-[200]'> Play Mobile Games as Console with Controller
  With the latest innovation, gamers can experience console-like control on laptops with intuitive UI dedicatedly designed for controllers.</p>
          </div>
          <div className="left md:w-1/2 flex-1 ">
