@@ -5,7 +5,7 @@ import {GrMap} from 'react-icons/gr'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between p-8 ' >
+    <div className='flex items-center justify-between md:p-8 p-4   ' >
         <img src={logo} alt="" />
         <ul className='links hidden  md:flex space-x-7 flex-1 ml-10 font-[700] uppercase text-gray-600'>
             <a href="#"><li>Products</li></a>

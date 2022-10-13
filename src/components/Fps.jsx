@@ -18,12 +18,12 @@ function Fps() {
 
 </p>
        </div>
-<div className="bg-contain md:bg-center bg-no-repeat overflow-x-hidden bg-[url('../../public/240FPS-xs.jpg')] h-72 md:h-screen w-full text-center   text-white">
+<div className="bg-contain md:bg-center bg-no-repeat overflow-x-hidden bg-[url('/public/240FPS-xs.jpg')] h-72 md:h-screen w-full text-center   text-white">
       
   </div>
     </div>
 
-    <div className="text-white bg-[url('../../public/Multi-Instance-bg.jpg')] md:h-screen bg-cover items-center  md:grid grid-cols-2 pt-5 bg-right">
+    <div className="text-white bg-[url('/public/Multi-Instance-bg.jpg')] md:h-screen bg-cover items-center  md:grid grid-cols-2 pt-5 bg-right">
     <div className="right max-w-lg space-y-5 md:ml-16 px-6 md:px-0">
            <p className='text-4xl font-[600]'>MULTI-INSTANCE</p>
            <p className='text-2xl font-[500] '> Play Multiple Games at the Same Time</p>
@@ -37,7 +37,7 @@ function Fps() {
     </div>
 
 
-    <div className="text-white bg-[url('../../public/backgroundd.jpg')] md:h-screen bg-cover items-center  pt-5 md:grid grid-cols-2  bg-right">
+    <div className="text-white bg-[url('/public/backgroundd.jpg')] md:h-screen bg-cover items-center  pt-5 md:grid grid-cols-2  bg-right">
     <div className="right max-w-lg space-y-5 md:ml-16 px-5 md:px-0">
            <p className='text-2xl font-[500] '> EXPERIENCE THE HOTKEY LIGHTING
 </p>
