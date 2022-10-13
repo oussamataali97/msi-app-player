@@ -1,7 +1,7 @@
 import React from 'react'
-import bann from '../../public/Multi-Instance-model.png'
+import bann from '/public/Multi-Instance-model.png'
 
-import img from '../../public/Hotkey-Lighting-model.gif'
+import img from '/public/Hotkey-Lighting-model.gif'
 
 
 function Fps() {

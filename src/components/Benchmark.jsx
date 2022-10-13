@@ -5,7 +5,7 @@ import screen1 from '../../public/Console-Mode-model1.png'
 function Benchmark() {
   return (
     <>
-    <div className="bg-[url('../../public/High-Performance-model.jpg')] md:h-screen md:bg-cover text-white grid md:grid-cols-2 p-10 justify-center items-center">
+    <div className="bg-[url('/public/High-Performance-model.jpg')] md:h-screen md:bg-cover text-white grid md:grid-cols-2 p-10 justify-center items-center">
         <div className="left ">
           <p></p>
         </div>
@@ -17,7 +17,7 @@ function Benchmark() {
       </div>
 
       
-      <div className="overflow-x-hidden bg-[url('../../public/Console-Mode-bg.jpg')] px-9 pt-16 bg-cover flex flex-col md:flex-row items-center justify-around  text-white">
+      <div className="overflow-x-hidden bg-[url('/public/Console-Mode-bg.jpg')] px-9 pt-16 bg-cover flex flex-col md:flex-row items-center justify-around  text-white">
 
        <div className="right max-w-lg space-y-5 md:ml-16">
            <p className='text-3xl font-[400]'>CONSOLE MODE</p>
