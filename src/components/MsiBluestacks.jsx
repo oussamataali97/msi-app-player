@@ -6,7 +6,7 @@ function MsiBluestacks() {
         <div className='bg-black md:h-screen md:py-10 md:flex justify-center items-center '>
             <div className="box lg:bg-[rgba(199,0,3,.3)] flex justify-center items-center  flex-col md:max-w-4xl md:mx-auto md:px-10 space-y-2 md:py-10 " >
                 <img src={bluestacks} alt="" className='  md:w-full' />
-                <p className='text-center leading-10 text-white md:text-lg md:py-5'>Founded in 2011, Silicon Valley-based BlueStacks is the global leader in providing a
+                <p className='text-center leading-10 text-white md:text-lg md:py-5 p-3'>Founded in 2011, Silicon Valley-based BlueStacks is the global leader in providing a
                     cross-platform service bridging the gap between mobile devices and PCs for over 300 million gamers worldwide.
                     Developed under an exclusive partnership with BlueStacks, the MSI App Player, brings the most advanced
                     gaming experience to MSI’s market-leading gaming computers.

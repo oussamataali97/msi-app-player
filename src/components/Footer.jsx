@@ -88,7 +88,7 @@ function Footer() {
         <p>Copyright © 2022 Micro-Star INT'L CO., LTD. All rights reserved.</p>
 
         </div>
-        <div className="right">
+        <div className="right text-[0.8rem]">
             <ul className='flex space-x-5 '>
                 <li>Cookie Policy</li>
                 <li>Privacy Policy</li>
