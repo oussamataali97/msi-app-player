@@ -2,12 +2,15 @@ import React from 'react'
 import bann from '/public/Multi-Instance-model.png'
 
 import img from '/public/Hotkey-Lighting-model.gif'
+import achraf from '/public/achraf.jpg'
+import pc from '/public/High-FPS-model.png'
 
 
 function Fps() {
   return (
 
     <>
+     
     <div className="sec bg-black h-full md:pt-32 md:px-16 pt-5 ">
          <div className="text text-center text-white space-y-7">
        <p className='font-[700] text-3xl'>ENJOY ULTRA HIGH FPS IN MOBILE GAMES</p>
@@ -49,6 +52,7 @@ function Fps() {
          </div>
 
     </div>
+
     
     
     </>
