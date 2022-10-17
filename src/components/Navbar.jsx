@@ -20,7 +20,7 @@ const Navbar = () => {
     </div>
     <div className='flex items-center justify-between md:p-8 p-4   relative' >
         <button href="#" className='block lg:hidden ease-out duration-300 z-100' onClick={()=>setShow(!show)}> {!show ? <AiOutlineMenu size={25} /> : <AiOutlineClose size={25}/>}  </button>
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className= ' w-18 md:w-20' />
         <ul className='links hidden  lg:flex space-x-7 flex-1 ml-10 font-[700] uppercase text-gray-600'>
             <a href="#"><li>Products</li></a>
             <a href="#"><li>Odm Solutions</li></a>

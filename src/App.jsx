@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar/>
+      <Navbar />
       <Hero/>
       <Benchmark/>
       <Fps/>

@@ -2,10 +2,21 @@ import React from 'react'
 import hero from '/public/kv-model.png'
 import console from '/public/App-player-icon.png'
 import background from '/public/pic.jpg'
+import {motion} from 'framer-motion'
 
 function Hero() {
   return (
     <div className='bg-black text-white relative -z-40'>
+      <motion.div      initial={{ 
+        y:40,
+        opacity: 0 }}
+      animate={{ y:0,opacity: 1 }}
+      transition={{
+        duration:0.9,
+        ease:'easeInOut'
+
+      }}
+      >
       <div className="background  flex flex-col bg-[url('/public/pic.jpg')]  ">
       <div className=" flex justify-center items-center ">
         <p className='text-center text-2xl md:text-6xl lg:text-8xl font-[400] py-10 mr-5 '>MSI APP PLAYER</p>
@@ -27,7 +38,7 @@ function Hero() {
 
       </div>
 
-       
+       </motion.div>
     </div>
   )
 }

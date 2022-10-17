@@ -13,7 +13,7 @@ function MsiBluestacks() {
                     The partnerships provides deep integration for both companies allowing MSI PCs to run mobile
                     games seamlessly while leveraging custom features such as game-specific keyboard backlighting
                     and cutting-edge graphics.</p>
-                <div className="buttons flex flex-col md:flex-row justify-around space-y-4 pb-4 md:w-full text-white md:text-2xl font-[600]">
+                <div className="buttons flex flex-col md:flex-row justify-around space-y-4 md:space-y-0 pb-4 md:w-full text-white md:text-2xl font-[600]">
                     <button className='bg-gradient-to-b from-[#bb2f00] to-[#ff0000] rounded-md md:px-8 px-3 py-5 md:py-4'>Learn More</button>
                     <button className='bg-gradient-to-b from-[#bb2f00] to-[#ff0000] rounded-md md:px-8 px-3 py-5 md:py-4'>Bluestacks FAQ'S</button>
                     <button className='bg-gradient-to-b from-[#bb2f00] to-[#ff0000] rounded-md md:px-8 px-3 py-5 md:py-4'>Download</button>
