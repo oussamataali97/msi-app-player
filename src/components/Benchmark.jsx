@@ -36,7 +36,7 @@ animation.start({
 animation.start({
   x:0,
   transition:{
-    duration:2,
+    duration:0.6,
     ease:'easeIn'
 
   }
